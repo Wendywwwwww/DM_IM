@@ -1,12 +1,7 @@
-/* yayala
-
-
-
-
-
-
-
-
+/*
+* The aesthetic uses a dark theme to mimic modern, immersive digital experiences, allowing content (especially the text) to stand out with high contrast.
+* Typography relies on 'Outfit', which is a geometric sans‑serif that feels playful yet professional.
+* The layout is centered and constrained to 750px max-width for optimal reading comfort (quite similar to academic papers).
 */
 
 body {
@@ -18,16 +13,35 @@ body {
     padding: 0;
 }
 
+/*
+Body:
+* The aesthetic uses a dark theme to mimic modern, immersive digital experiences, allowing content (especially the text) to stand out with high contrast.
+* Typography relies on 'Outfit', which is a geometric sans‑serif that feels playful yet professional.
+* Provide different text fonts in case the primary font fails to load.
+*/
+
 .wrapper {
     max-width: 750px;
     margin: 0 auto;
     padding: 60px 20px;
 }
 
+/*
+Wrapper:
+* The layout is constrained to 750px max-width for optimal reading comfort (quite similar to academic papers).
+* Apply Margin: 0 auto to center the container horizontally.
+* Add padding to create space around the content, preventing it from touching the edges of the container.
+*/
+
 header {
     text-align: center;
     margin-bottom: 60px;
 }
+
+/*
+Header:
+* Large bottom margin creates visual separation between the introductory area and the main analysis content below.
+*/
 
 .Luni-home {
     width: 90%;
@@ -35,6 +49,12 @@ header {
     margin-bottom: 20px;
     border: 3.5px solid #6a5f96;
 }
+
+/*
+Title image:
+* Border-radius 12px adds soft rounded corners for a friendly, modern appearance.
+* The purple border reinforces the brand color theme and creates a subtle frame around the image.
+*/
 
 h1 {
     font-size: 45px;
@@ -50,6 +70,14 @@ h1 {
     filter: drop-shadow(0 0 3px #4c41ad);
 }
 
+/*
+Title:
+* The large font size and uppercase letters create a bold, impactful title that commands attention.
+* The gradient fill with background-clip creates a visually striking text effect that adds depth and interest.
+* The drop shadow adds a subtle glow that enhances the title's prominence against the dark background.
+* Overall, it sets a spaced-out futuristic glowing title that immediately catches the eye.
+*/
+
 .subtitle {
     font-size: 12px;
     color: #8b76a0;
@@ -63,11 +91,23 @@ h1 {
     text-align: center;
 }
 
+/*
+Subtitle and author info:
+* The smaller font size and muted purple color create a clear hierarchy.
+* Center alignment reinforces the formal, structured feel of the header section.
+*/
+
 .content {
     display: flex;
     flex-direction: column;
     gap: 35px;
 }
+
+/*
+Content:
+* Using flexbox with column direction and a gap creates a clean, organized layout for the Q&A sections.
+* The gap property ensures consistent spacing between each .item without needing to set individual margins.
+*/
 
 .item {
     background: #18131e;
@@ -76,6 +116,13 @@ h1 {
     border: 1px solid #6a5f96;
 }
 
+/*
+Item:
+* The dark background with a subtle border creates a card-like appearance that visually separates each Q&A block from the background and from each other.
+* Padding creates space inside the card, ensuring the text doesn't touch the edges.
+* Border-radius adds a friendly feel to the blocks.
+*/
+
 h2 {
     font-size: 20px;
     color: #e9dfff;
@@ -83,11 +130,44 @@ h2 {
     line-height: 1.4;
 }
 
+/*
+Question:
+* The larger font size and lighter color differentiate the questions from the answers, making it easy for readers to scan and identify each section.
+* The line-height and margin-bottom improve visual separation from the answer text.
+*/
+
 p {
     margin: 0;
     color: #f6e7ff;
     text-align: justify;
 }
+
+/*
+Answer:
+* Justified text creates a clean, block-like appearance that can enhance readability in longer paragraphs.
+* The lighter color maintains good contrast against the dark background while being slightly softer than pure white for a more comfortable reading experience.
+*/
+
+.item-images {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.item-images img {
+    width: 80%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #4f4f4f;
+    
+}
+
+/*
+Images:
+* Centering the images within each item block creates a balanced layout.
+* Setting the width to 80% allows the images to scale responsively while maintaining a good size relative to the text.
+* Border-radius and border add a framed look to the screenshots.
+*/
 
 footer p{
     text-align:center;
@@ -102,3 +182,10 @@ footer a {
     color: #9073cb;
     text-decoration: none;
 }
+
+/*
+Footer:
+* The centered text and top border create a clear separation from the main content, signaling the end of the page.
+* The muted color and smaller font size indicate that this information is less important than the main content.
+* The link color stands out against the footer text, making it easy for users to identify and click on the source link.
+*/ 
