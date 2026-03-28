@@ -53,12 +53,14 @@ h1 {
 .subtitle {
     font-size: 12px;
     color: #8b76a0;
+    text-align: center;
 }
 
 .author-info p {
     margin-top: 5px;
     font-size: 12px;
     color: #8b76a0;
+    text-align: center;
 }
 
 .content {
@@ -84,6 +86,7 @@ h2 {
 p {
     margin: 0;
     color: #f6e7ff;
+    text-align: justify;
 }
 
 footer p{
