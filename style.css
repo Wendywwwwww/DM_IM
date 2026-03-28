@@ -12,16 +12,16 @@
 body {
     background-color: #0d0d0d;
     color: #f6f6f6;
-    font-family: sans-serif, Arial, Helvetica;
+    font-family: "Outfit", sans-serif, Arial, Helvetica;
     line-height: 1.6;
     margin: 0;
     padding: 0;
 }
 
 .wrapper {
-    max-width: 1200px;
+    max-width: 750px;
     margin: 0 auto;
-    padding: 40px 20px;
+    padding: 60px 20px;
 }
 
 header {
@@ -32,14 +32,22 @@ header {
 .Luni-home {
     width: 90%;
     border-radius: 12px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     border: 3.5px solid #6a5f96;
 }
 
 h1 {
-    font-size: 50px;
-    color:#bfa3ff;
-    margin-bottom: 5px;
+    font-size: 45px;
+    background: linear-gradient(40deg, #746778, #af61f3, #76a2d3);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-stroke: 6px transparent;
+    color:#0d0d0d;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-weight: 900;
+    filter: drop-shadow(0 0 3px #4c41ad);
 }
 
 .subtitle {
@@ -56,7 +64,7 @@ h1 {
 .content {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 35px;
 }
 
 .item {
